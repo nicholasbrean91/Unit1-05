@@ -1,0 +1,107 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{36, 85}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "FFE42315-BC1E-4620-9176-6223C9A3C8A7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Radius",
+          "font_size" : 18,
+          "name" : "Radius_Label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{36, 20}, {405, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "F2A9C0DE-99A9-47FE-8ED9-E1B4F6194392",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the radius of your circle below",
+          "custom_attributes" : "\n",
+          "font_size" : 18,
+          "name" : "Description"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{208, 85}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "99B1492A-66E7-484F-95DD-6DC71BFA01BD",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "Radius_TextField"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{200, 144}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_Circumfrance",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "C64BB602-B9E2-4E94-859C-F9BC60AC25E4",
+          "class" : "Button",
+          "name" : "Calculate_Button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{67, 239}, {348, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "93B313FA-083D-40BD-8E9A-1D1597A2A4D3",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
